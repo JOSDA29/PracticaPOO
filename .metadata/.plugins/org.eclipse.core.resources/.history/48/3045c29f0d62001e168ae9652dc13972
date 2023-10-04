@@ -1,0 +1,21 @@
+import javax.swing.JOptionPane;
+
+public class Procesos {
+	int cantObreros;
+	String msj;
+	
+	public void menu() {
+		
+	}
+	
+	public int inicio() {
+		msj = "!BIENVENIDO AL SOFTWARE PARA CALCULAR SALARIOS¡\n";
+		msj += "Digite el numero de obreros a ingresar";
+		
+		cantObreros = Integer.parseInt(JOptionPane.showInputDialog(msj));
+		return (cantObreros);
+		
+	}
+
+
+}

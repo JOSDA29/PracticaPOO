@@ -1,0 +1,65 @@
+
+public class Obreros {
+	double salarioAnterior, salarioFinal;
+	int cedula;
+	String nombre,categoria;
+	
+	public Obreros(double salarioAnterior, double salarioFinal, int cedula, String nombre, String categoria) {
+		super();
+		this.salarioAnterior = salarioAnterior;
+		this.salarioFinal = salarioFinal;
+		this.cedula = cedula;
+		this.nombre = nombre;
+		this.categoria = categoria;
+	}
+
+	public double getSalarioAnterior() {
+		return salarioAnterior;
+	}
+
+	public void setSalarioAnterior(double salarioAnterior) {
+		this.salarioAnterior = salarioAnterior;
+	}
+
+	public double getSalarioFinal() {
+		return salarioFinal;
+	}
+
+	public void setSalarioFinal(double salarioFinal) {
+		this.salarioFinal = salarioFinal;
+	}
+
+	public int getCedula() {
+		return cedula;
+	}
+
+	public void setCedula(int cedula) {
+		this.cedula = cedula;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public String getCategoria() {
+		return categoria;
+	}
+
+	public void setCategoria(String categoria) {
+		this.categoria = categoria;
+	}
+
+	public String toString() {
+		return "Obreros [Cedula=" + cedula + ", Nombre=" + nombre + ", Categoria=" + categoria
+				+ ", Salario Anterior=" + salarioAnterior + ", Salario Final=" + salarioFinal + "]";
+	}
+	
+	
+
+	
+}
+
