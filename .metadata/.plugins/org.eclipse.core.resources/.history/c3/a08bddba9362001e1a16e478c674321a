@@ -2,6 +2,7 @@ package SalarioObreros;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+
 import javax.swing.JOptionPane;
 
 public class Procesos {
@@ -150,9 +151,9 @@ public class Procesos {
 	      mensaje = "<<INFORMACION OBREROS>>\n";
 	      mensaje += "--------------------------------------\n";
 	      mensaje += "Total obreros procesados: "+cantObreros+"\n";
-	      mensaje += "Cantidad Obreros Tipo A: "+tipoA+"\n";
-	      mensaje += "Cantidad Obreros Tipo B: "+tipoB+"\n";
-	      mensaje += "Cantidad Obreros Tipo C: "+tipoC+"\n";
+	      mensaje += "Cantidad Obreros Tipo A:  "+tipoA+"\n";
+	      mensaje += "Cantidad Obreros Tipo B:  "+tipoB+"\n";
+	      mensaje += "Cantidad Obreros Tipo C: : "+tipoC+"\n";
 	      mensaje += "--------------------------------------\n";
 	      JOptionPane.showMessageDialog(null, mensaje, "Información", JOptionPane.INFORMATION_MESSAGE);
 	}
